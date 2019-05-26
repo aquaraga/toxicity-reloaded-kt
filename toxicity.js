@@ -2,16 +2,16 @@
 toxicity = {}
 
 toxicity.checknames = [
-	"BooleanExpressionComplexity", 
+	"ComplexCondition", 
 	"ClassDataAbstractionCoupling", 
 	"ClassFanOutComplexity",
-	"CyclomaticComplexity",
+	"ComplexMethod",
 	"FileLength",
-	"MethodLength",
-	"NestedIfDepth",
+	"LongMethod",
+	"NestedBlockDepth",
 	"AnonInnerLength",
-	"ParameterNumber",
-	"MissingSwitchDefault"
+	"LongParameterList",
+	"MissingWhenCase"
 ];
 
 toxicity.colors = [
